@@ -24,6 +24,11 @@ import Scenario2 from "./Radio and checkboxes/Scenario2";
 import Filter1 from "./Filters/Filter1";
 import MultiStepForm1 from "./MultiStepForm/MultiStepForm1";
 import MultiStepForm2 from "./MultiStepForm/MultiStepForm2";
+import FormScenario1 from "./MultiStepForm/FormScenario1";
+import FormScenario2 from "./MultiStepForm/FormScenario2";
+import MsForm from "./MultiStep  Form buttons inside/MsForm";
+import MultiSForm from "./MultiStepForm  combine/MultiSForm";
+import File1 from "./File Formats/File1";
 
 const App = () => {
   return (
@@ -52,6 +57,9 @@ const App = () => {
         <Route path="/radio" element={<Scenario2 />} />
         <Route path="/filter" element={<Filter1 />} />
         <Route path="/multi" element={<MultiStepForm2 />} />
+        <Route path="/scenario1" element={<MsForm />} />
+        <Route path="/multi2" element={<MultiSForm />} />
+        <Route path="/file" element={<File1 />} />
       </Routes>
       {/* <Login /> */}
     </div>
