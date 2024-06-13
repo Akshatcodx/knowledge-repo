@@ -29,6 +29,9 @@ import FormScenario2 from "./MultiStepForm/FormScenario2";
 import MsForm from "./MultiStep  Form buttons inside/MsForm";
 import MultiSForm from "./MultiStepForm  combine/MultiSForm";
 import File1 from "./File Formats/File1";
+import ShowMore from "./Pagination.jsx/ShowMore";
+import MultiLang from "./MultiLang/MultiLang";
+import Faq from "./Faqs/Faq";
 
 const App = () => {
   return (
@@ -60,6 +63,9 @@ const App = () => {
         <Route path="/scenario1" element={<MsForm />} />
         <Route path="/multi2" element={<MultiSForm />} />
         <Route path="/file" element={<File1 />} />
+        <Route path="/show" element={<ShowMore />} />
+        <Route path="/multilang" element={<MultiLang />} />
+        <Route path="/faqs" element={<Faq />} />
       </Routes>
       {/* <Login /> */}
     </div>
